@@ -27,4 +27,4 @@ app.get('/', async (req, res) => {
 
 app.use('/articles', articleRouter)
 
-app.listen(5000)
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
