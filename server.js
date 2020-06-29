@@ -12,7 +12,7 @@ const app = express()
 app.use(express.static(dir));
 
 //'mongodb://localhost/blog'
-mongoose.connect('mongodb+srv://troy:Gruj3267@cluster0-orxh2.gcp.mongodb.net/tblog', {
+mongoose.connect('mongodb+srv://troy:pass@cluster0-orxh2.gcp.mongodb.net/tblog', {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true
 })
 
